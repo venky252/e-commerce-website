@@ -1,0 +1,39 @@
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  margin: 20px;
+  width: 300px;
+}
+
+.sort select {
+  padding: 10px;
+  margin: 20px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.cart {
+  margin: 20px;
+}
